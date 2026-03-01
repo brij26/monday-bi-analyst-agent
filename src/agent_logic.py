@@ -3,8 +3,8 @@ import json
 from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
-from langchain.agents import create_openai_functions_agent
-from langchain.agents import AgentExecutor
+from langchain.agents.openai_functions_agent.base import create_openai_functions_agent
+from langchain.agents.agent import AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.tools import tool
 
