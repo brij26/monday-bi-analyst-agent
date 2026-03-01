@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.messages import ChatMessage
-from langchain.callbacks.base import BaseCallbackHandler
+from langchain_core.callbacks import BaseCallbackHandler
 from src.agent_logic import initialize_agent
 
 # Config UI
